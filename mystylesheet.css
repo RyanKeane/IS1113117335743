@@ -15,7 +15,6 @@ body{
 /* displaying border at top */
 hr{
     display: block;
-    border-size: 1px;
     border-style: inset;
     border-width: 1px;
 }
@@ -29,3 +28,8 @@ a{
 a:hover{
     color: white;
 }
+
+.line{
+    border:1px solid black;
+}
+
