@@ -9,14 +9,14 @@ H1{
 
 /* changing color of the back ground */
 body{
-    background-color: rgb(0, 255, 255);
+    background-color: rgb(153, 204, 255)
     
 }
 /* displaying border at top */
 hr{
     display: block;
     border-style: inset;
-    border-width: 1px;
+    border-width: 1.5px;
 }
 
 a{
@@ -25,11 +25,44 @@ a{
     display: block;
 }
 
-a:hover{
-    color: white;
-}
+
 
 .line{
     border:1px solid black;
 }
 
+.center {
+    margin: auto;
+    width: 35%;
+}
+    
+    /* removing bullet points */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   }
+   
+ul li  {
+      
+     position :relative;
+     display:block;
+     float:left; 
+     border: 1px solid #555;
+      color: white;
+    text-align: center;
+    padding: 11px 34px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ffffff;
+    
+}
+
+/* make stay while scrolling */
+ul {
+    position: fixed;
+    top: ;
+    width: 150%;
+}
