@@ -63,6 +63,11 @@ li a:hover {
 /* make stay while scrolling */
 ul {
     position: fixed;
-    top: ;
     width: 150%;
+}
+
+.paragraph_position{
+    max-width: 100%;
+   
+    
 }
