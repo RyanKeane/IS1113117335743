@@ -9,8 +9,9 @@ H1{
 
 /* changing color of the back ground */
 body{
-    background-color: rgb(153, 204, 255)
-    
+    background-image: url("http://www.wired.com/images_blogs/gamelife/2012/05/ff_unreal4_mountain.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 /* displaying border at top */
 hr{
