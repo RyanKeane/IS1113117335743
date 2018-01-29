@@ -1,6 +1,5 @@
 body{
-    background: url("https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg") no-repeat;
-    background-size: cover;
+   
 }
 
 ul{
@@ -40,8 +39,11 @@ ul li:hover ul li{
     display: block;
 }
 
+/* changes made here on .flex */
 .flex{
     display: flex;
     flex-wrap: nowrap;
+     background: url("https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg") no-repeat;
+     background-size: cover;
 
 }
