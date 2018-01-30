@@ -1,0 +1,33 @@
+body{
+    background-image: url("http://jonvilma.com/images/blue-2.jpg");
+}
+
+/*used vor centering text*/
+.center{
+   text-align: center;
+}
+
+
+.about{
+    text-align: center;
+}
+
+
+#grades {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#grades td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#grades tr:hover {background-color: #ddd;}
+
+#grades th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+}
