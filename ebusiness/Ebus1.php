@@ -4,7 +4,7 @@
            <title>Select Product</title>
            <!--jQuery-->
            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-           <script type="text/javascript" src="cost_cac.js"></script>
+           <script type="text/javascript" src="cost_calc.js"></script>
       </head> 
 
       <body>
@@ -16,7 +16,7 @@
          <form method="Post"  action="Ebus2.php">   
          
           <label for="salesforce">
-              <input type="radio" id="Salesforce"   name="Product" checked onclick="<disablebtnProceed()"/>
+              <input type="radio" id="salesforce"   name="Product" checked onclick="<disablebtnProceed()"/>
               Salesforce @ £100
           </label>
            
