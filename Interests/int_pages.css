@@ -1,27 +1,25 @@
 #section1{
-     display: flex;
-    flex-wrap: nowrap;
-     background: url("http://farm8.staticflickr.com/7552/15309845043_0252e32c96_b.jpg") no-repeat;
-     background-size: cover;
-
+   background-color: rgb(23, 0, 90);
 }
 
 #section2{
-    background-color: rgb(44, 62, 80);
+    background-color: rgb(444, 62, 80);
 }
 
 #section3{
-    background-color: rgb(51, 153, 204);
+    background-color: rgb(5, 153, 204);
 }
 
 .section{
-    text-align:center;
-    color:white;
+    text-align: center;
+    color: white;
 }
 
 .center{
     text-align: center;
 }
 
-
+.sportimg{
+     background-image: url("http://www.designbolts.com/wp-content/uploads/2013/02/Cute-Grey-Tilable-Pattern-For-Website-Background.jpg");
+}
 
