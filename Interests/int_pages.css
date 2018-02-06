@@ -1,5 +1,9 @@
 #section1{
-    background-color: rgb(238, 0, 90);
+     display: flex;
+    flex-wrap: nowrap;
+     background: url("http://farm8.staticflickr.com/7552/15309845043_0252e32c96_b.jpg") no-repeat;
+     background-size: cover;
+
 }
 
 #section2{
@@ -15,8 +19,9 @@
     color:white;
 }
 
-
-/* code not working */
 .center{
     text-align: center;
 }
+
+
+
