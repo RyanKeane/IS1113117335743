@@ -5,13 +5,13 @@ body{
 /*used vor centering text*/
 .center{
    text-align: center;
-   max-width: 100%
+   max-width: 100%;
 }
 
 
 .about{
     text-align: center;
-    max-width: 100%
+    max-width: 100%;
 }
 
 .line{
