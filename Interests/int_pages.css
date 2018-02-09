@@ -35,3 +35,8 @@
     position: fixed;
     left:38%;
 }
+
+.cloud_background{
+    background-image:url("https://tctechcrunch2011.files.wordpress.com/2017/05/onedrive-illo3.jpg");
+    background-size: cover;
+}
