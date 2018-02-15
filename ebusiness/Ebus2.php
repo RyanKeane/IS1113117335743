@@ -1,3 +1,8 @@
+<?php
+// start the session
+session_start()
+?>
+
 <!DOCTYPE html>
       <html>
       <head>
@@ -24,10 +29,17 @@
         
           <br/>
            <button onClick="valadateDetails()">Valadate</button>
-          
+           
+        
           
           <!-- Name imput and Email imput-->
          
          <script type="text/javascript" src="ebus2_valadator.js"></script>
+         
+           <?php
+          // Set session variables
+          $_SESSION["total"] =$_POST["total"];
+          ?>
+          
       </body>
 </html>

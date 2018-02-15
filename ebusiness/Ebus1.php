@@ -16,7 +16,7 @@
          <form method="Post"  action="Ebus2.php">   
          
           <label for="salesforce">
-              <input type="radio" id="salesforce"   name="Product" checked onclick="<disablebtnProceed()"/>
+              <input type="radio" id="salesforce"   name="Product" checked onclick="disablebtnProceed(); calcSub()"/>
               Salesforce @ £100
           </label>
            
@@ -24,7 +24,7 @@
           <br/>
           
            <label for="aws">
-              <input type="radio" id="aws"   name="Product" onclick="<disablebtnProceed()"/>
+              <input type="radio" id="aws"   name="Product" onclick="disablebtnProceed(); calcSub()"/>
               AWS @ £300
           </label>
            
@@ -42,7 +42,7 @@
            
            <label for="total">
               Total
-              <input type="text"  id="total"   name="Product" value="0.00" readonly/>
+              <input type="text"  id="total"   name="total" value="0.00" readonly/>
           </label>
            
            
@@ -53,8 +53,7 @@
          </form>
          
          <br/>
-         
-         <button onClick="calcSub()">Calculate Cost</button>
+       
          <a role="Button" href="Ebus1.php">Clear Choice</a>
          
 
