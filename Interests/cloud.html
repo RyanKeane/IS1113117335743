@@ -6,72 +6,78 @@
         <!-- adding bootstrap here -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+         <!--Page Piling-->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+        
+        <script type = "text/javascript">
+             $(document).ready(function() {
+                $('#pagepiling').pagepiling({
+                });
+             });
+        </script>
  </head>
  
- <body class = "cloud_background">
-   <div class="center">
-  
-       <hr class="line">  
-       <h1 class="mainheading">Cloud Computing</h1>
-       <hr class="line">  
-   </div>
-  
-  <div class="text">
-  <div class="center">
-        <p><strong>What is a cloud based service:</strong> </p>
-        <p>
-          A cloud based service is a service of storage that allows a client 
-          to manage, save and access this information from any device 
-          connected to the internet. It is quite a versitile service as it alows
-          a client to interact with there data from anywhere in a much more secure
-          and safe alternative to traditional hard drive services.
-        </p>
+ 
+ <body>
+   <div id= "pagepiling">
+      <div class = "section" id="section4">
         
-        </br>
-        
-        
-        
-         <p><strong>Different providers for cloud based services:</strong> </p>
-        
-                <ul>
-                    <li>Microsoft Azure</li>
-                    <li>Google Cloud Services</li>
-                    <li>Amazon EC2</li>
-                    <li>Dropbox</li>
-                    <li>Cloud9</li>
-                    <li>Apple i Cloud Services</li>
-                </ul>
+               
+                    <hr class="line">  
+                    <h1 class="mainheading">Cloud Computing</h1>
+                    <hr class="line">  
                 
-        </br>
-        
-         <p><strong>What is cloud computings place in business:</strong> </p>
-        
-                <ol>
-                    <li>Flexability: Cloud computing allows firms to work from anyware. 
-                    Which means employees can benefit from a more flexable work life balance </li>
-                    <li>Security: the loss of sensitive information can be catastrofic for a company
-                    Cloud computing increases security as it alows consant access to this data no 
-                    matter what happenes to a particular device.</li>
-                    <li>Incresaed Colaberatin In Group Projects: The fact that each 
-                    member of a particular team can access the group data from any location allows
-                    work to be conducted even if the group is not there in person</li>
-                    <li>Automatic Software Updates: Servers are off premesis and so are out of 
-                    sight and out of mind software companies take care of everything including regular updates. </li>
-                    <li>Environmentally FriendlyWhen your cloud needs fluctuate,
-                    your server capacity scales up and down to fit. So you only use the energy you need and you don't
-                    leave oversized carbon footprints. </li>
-                </ol>
-        
-        
-      <a href="travel.html" class="btn btn-dark">Back</a>
-      <a href="../homepage.html" class="btn btn-success">Home</a>
-         
- </div>     
- </div>
-  
-  
-  
-  
-    
+               
+             
+                     <p><strong>What is a cloud based service:</strong> </p>
+                     <p>
+                       A cloud based service is a service of storage that allows a client 
+                       to manage, save and access this information from any device 
+                       connected to the internet. It is quite a versitile service as it alows
+                       a client to interact with there data from anywhere in a much more secure
+                       and safe alternative to traditional hard drive services.
+                     </p>
+      </div>
+      <div class = "section" id="section5">
+        <p><strong>Different providers for cloud based services:</strong> </p>
+                     
+                             <ul>
+                                 <li>Microsoft Azure</li>
+                                 <li>Google Cloud Services</li>
+                                 <li>Amazon EC2</li>
+                                 <li>Dropbox</li>
+                                 <li>Cloud9</li>
+                                 <li>Apple i Cloud Services</li>
+                             </ul>
+      </div>
+              
+      <div class = "section" id="section6">
+       <p><strong>What is cloud computings place in business:</strong> </p>
+                     
+                             <ol>
+                                 <li>Flexability: Cloud computing allows firms to work from anyware. 
+                                 Which means employees can benefit from a more flexable work life balance </li>
+                                 <li>Security: the loss of sensitive information can be catastrofic for a company
+                                 Cloud computing increases security as it alows consant access to this data no 
+                                 matter what happenes to a particular device.</li>
+                                 <li>Incresaed Colaberatin In Group Projects: The fact that each 
+                                 member of a particular team can access the group data from any location allows
+                                 work to be conducted even if the group is not there in person</li>
+                                 <li>Automatic Software Updates: Servers are off premesis and so are out of 
+                                 sight and out of mind software companies take care of everything including regular updates. </li>
+                                 <li>Environmentally FriendlyWhen your cloud needs fluctuate,
+                                 your server capacity scales up and down to fit. So you only use the energy you need and you don't
+                                 leave oversized carbon footprints. </li>
+                             </ol>
+                     
+                     
+                   <a href="travel.html" class="btn btn-dark">Back</a>
+                   <a href="../homepage.html" class="btn btn-success">Home</a>
+      </div>         
+  </div>               
  </body>

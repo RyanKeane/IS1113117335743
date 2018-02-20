@@ -1,5 +1,5 @@
 #section1{
-   background-color: rgb(23, 0, 90);
+   background-color: rgb(230, 0, 90);
 }
 
 #section2{
@@ -10,8 +10,22 @@
     background-color: rgb(5, 153, 204);
 }
 
+#section4{
+    background-color: rgb(230, 0, 90);
+}
+
+#section5{
+    background-color: rgb(444, 62, 80);
+}
+
+#section6{
+    background-color: rgb(5, 153, 204);
+}
+
+
+
 .section{
-    color: white;
+    color: #000;
 }
 
 .center{
@@ -41,4 +55,6 @@
     background-size: cover;
 }
 
-
+.mainheading{
+    position: absolute 20%
+}
