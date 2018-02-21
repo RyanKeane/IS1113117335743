@@ -9,7 +9,7 @@ body{
 }
 
 
-.about{
+.mainheading{
     text-align: center;
     max-width: 100%;
 }
@@ -38,3 +38,8 @@ body{
     padding-bottom: 12px;
     color: red;
 }
+
+.about{
+    text-align: center;
+}
+
