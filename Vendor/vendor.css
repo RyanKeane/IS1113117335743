@@ -31,29 +31,10 @@
     top:80%;
 }
 
-.image1{
-    float:left;
-    top: 10%
-    
-}
-
-.image2{
-    float: left; 
-   
-}
-
-.image3{
-   float:left;
-   
-}
-
-.image4{
-    float:left;
-    
-}
-
-
-
-li {
+.center {
     text-align: center;
 }
+
+
+
+

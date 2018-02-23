@@ -38,13 +38,26 @@ ul li ul li{
 ul li:hover ul li{
     display: block;
 }
-
-/* changes made here on .flex */
+ 
 .flex{
-    display: flex;
-    flex-wrap: nowrap;
+     display: flex;
+     flex-wrap: nowrap;
      background: url("https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg") no-repeat;
      background-size: cover;
      background-repeat: repeat-x
 }
 
+.vendorhome{
+     display: flex;
+    flex-wrap: nowrap;
+     background: url("https://ak9.picdn.net/shutterstock/videos/13027199/thumb/11.jpg?i10c=img.resize(height:72)") no-repeat;
+     background-size: cover;
+     background-repeat: repeat-x
+}
+
+.text-location{
+     position: fixed;
+    width: 80%;
+    margin-left: 10%;
+    top: 15%;
+}
