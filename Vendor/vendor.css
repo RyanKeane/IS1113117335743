@@ -1,8 +1,65 @@
 .vendorbackground{
-     background: url("https://st.depositphotos.com/1172692/2738/v/950/depositphotos_27381541-stock-illustration-seamless-vector-pattern-texture-or.jpg") no-repeat;
-     background-size: cover;
 }
 
-.vendortextallign{
+
+
+.paragraph1 {
+    max-width: 100%;
+    left: 38%;
+    position: fixed;
+    top:10%;
+}
+
+.paragraph2 {
+    max-width: 100%;
+    left:38%;
+    position:fixed;
+    top:30%;
+}
+
+.paragraph3 {
+    max-width: 100%;
+    left:38%;
+    position:fixed;
+    top:60%;
+}
+
+.paragraph4 {
+    max-width: 100%;
+    left:38%;
+    position:fixed;
+    top:80%;
+}
+
+.about1{
+     max-width: 100%;
+    left: 38%;
+    position: fixed;
+    top:12%;
+}
+
+.about2{
+     max-width: 100%;
+    left:38%;
+    position:fixed;
+    top:30%;
+}
+
+.about3{
+     max-width: 100%;
+    left:38%;
+    position:fixed;
+    top:60%;
+}
+
+.about4{
+     max-width: 100%;
+    left:38%;
+    position:fixed;
+    top:80%;
+}
+
+
+li {
     text-align: center;
 }
