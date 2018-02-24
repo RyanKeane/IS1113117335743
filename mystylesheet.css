@@ -47,17 +47,5 @@ ul li:hover ul li{
      background-repeat: repeat-x
 }
 
-.vendorhome{
-     display: flex;
-    flex-wrap: nowrap;
-     background: url("https://ak9.picdn.net/shutterstock/videos/13027199/thumb/11.jpg?i10c=img.resize(height:72)") no-repeat;
-     background-size: cover;
-     background-repeat: repeat-x
-}
 
-.text-location{
-     position: fixed;
-    width: 80%;
-    margin-left: 10%;
-    top: 15%;
-}
+   
