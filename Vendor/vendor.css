@@ -6,6 +6,7 @@
 
 
 
+
 .text-location{
      position: fixed;
     width: 80%;
@@ -34,7 +35,7 @@ ul{
 
 ul li{
     float: left;
-    width: 335px;
+    width: 320px;
     height: 40px;
     background-color: black;
     color: #fff;
@@ -106,7 +107,7 @@ ul li:hover ul li{
     position: absolute;
     width: 40%;
     margin-left: 30%;
-    top: 40%;
+    top: 45%;
     
 }
 
@@ -114,10 +115,45 @@ ul li:hover ul li{
     position: absolute;
     width: 40%;
     margin-left: 30%;
-    top: 57%;
+    top: 65%;
     
 }
 
 .paragraph4{
-    
+     position: absolute;
+    width: 40%;
+    margin-left: 30%;
+    top: 90%;
+}
+
+.homepage1 img {
+    position: absolute;
+    width: 300px;
+    height: 190px;
+    top: 20%;
+    left: 75%;
+}
+
+.homepage2 img {
+    position:absolute;
+    width: 300px;
+    height: 190px;
+    top: 41%;
+    right: 75%;
+}
+
+.homepage3 img {
+    position:absolute;
+    width: 300px;
+    height: 190px;
+    top: 68%;
+    left: 75%;
+}
+
+.homepage4 img {
+    position:absolute;
+    width: 300px;
+    height: 190px;
+    top: 88%;
+    right: 75%;
 }
