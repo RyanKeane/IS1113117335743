@@ -16,7 +16,7 @@
             <br/>
             
             <form method="POST" action="Ebus2.php">
-              
+              <!-- making radio buttons and prices-->
               <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                 SalesForce @ $100
@@ -29,9 +29,27 @@
                 AWS @ $300
               </label>
               
-              <br/>
-              <br/>
+              <br />
               
+                
+              <label for="Cloud9">
+                <input type="radio" id="Cloud9" name="product" checked onClick="disablebtnProceed()"/>
+                Cloud9 @ $200
+              </label>
+              
+              <br />
+              
+                  
+              <label for="Gmail">
+                <input type="radio" id="Gmail" name="product" checked onClick="disablebtnProceed()"/>
+                Gmail @ $400
+              </label>
+              
+              
+              
+              <br/>
+              <br/>
+              <!--making lables to store the values and setting them to read only-->
               <label for="subtotal">
                 Sub Total
                 <input type="text" id="subtotal" value="0.00" readonly/>
@@ -39,13 +57,27 @@
               
               <br/>
               
+              <label for="vat">
+                Vat
+                <input type="text" id="vat" value="0.00" readonly/>
+              </label>
+              
+              <br/>
+              
+              <label for="discount">
+                 Discount
+                <input type="text" id="discount" value="0.00" readonly/>
+              </label>
+              
+              <br/>
+              
               <label for="total">
                 Total
-                <input type="hidden" id="total" name="total" value="0.00" readonly/>
+                <input type="text" id="total" name="total" value="0.00" readonly/>
               </label>
     
               <br/>
-              
+             <!--buttons for proceeding and calculating cost-->
               <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
             </form>
