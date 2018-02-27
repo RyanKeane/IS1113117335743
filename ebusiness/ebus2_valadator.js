@@ -9,9 +9,6 @@ function validateName(){
     if (name == ""){
         alert("Please enter your name");
     }
-    else if (!name.match(/^[a-zA-Z]+$/)){
-        alert('this is not a valid name');
-    }
     else{
         validateEmail();
     }
