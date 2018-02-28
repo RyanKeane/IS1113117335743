@@ -1,25 +1,33 @@
+/*Inserting sections to style the page pileing*/
+
 #section1{
-   background-color: rgb(230, 0, 90);
+   background: url("../Images/Ireland.png") no-repeat;
+    background-size: cover;
 }
 
 #section2{
-    background-color: rgb(444, 62, 80);
+    background: url("../Images/Brazil.png") no-repeat;
+    background-size: cover;
 }
 
 #section3{
-    background-color: rgb(5, 153, 204);
+    background: url("../Images/Japan.png") no-repeat;
+    background-size: cover;
 }
 
 #section4{
-    background-color: rgb(230, 0, 90);
+      background: url("../Images/cloud_Background.png") no-repeat;
+      background-size: cover;
 }
 
 #section5{
-    background-color: rgb(444, 62, 80);
+    background: url("../Images/cloud_Background.png") no-repeat;
+    background-size: cover;
 }
 
 #section6{
-    background-color: rgb(5, 153, 204);
+   background: url("../Images/cloud_Background.png") no-repeat;
+   background-size: cover;
 }
 
 

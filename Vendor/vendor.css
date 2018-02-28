@@ -150,3 +150,11 @@ ul li:hover ul li{
     right: 75%;
 }
 
+.homepage_logo{
+    position:absolute;
+    width: 180px;
+    height: 0px;
+    top: 0%;
+    right: 50%;
+}
+
