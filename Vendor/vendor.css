@@ -1,4 +1,6 @@
 
+/*css for styling the three main pages in the vendor foldor*/
+
 .text-location{
      position: fixed;
     width: 80%;
@@ -27,7 +29,7 @@ ul{
 
 ul li{
     float: left;
-    width: 337px;
+    width: 320px;
     height: 40px;
     background-color: black;
     color: #fff;
