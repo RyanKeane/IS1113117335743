@@ -48,9 +48,29 @@ body{
     width: 200px;
     height: 190px;
     top: 20%;
-    left: 75%;
+    left: 70%;
 }
 
 .College{
-    
+    position: absolute;
+    width: 200px;
+    height: 190px;
+    top:620px;
+    left: 70%;
+}
+
+.DayBreak{
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    top: 20%;
+    left: 70%;
+}
+
+.Megavision{
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    top: 40%;
+    left: 70%;
 }
