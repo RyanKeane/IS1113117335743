@@ -8,6 +8,7 @@ session_start();
         <title>RECEIPT</title>
     </head>
     <body>
+        
         <h4>RECEIPT OF PURCHASE</h4>
         
         <?php

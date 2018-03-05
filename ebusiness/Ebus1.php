@@ -10,9 +10,9 @@
     </head>
     
     <body>
-        <div class ="tital">
-            <h4>Select a Product</h4>
-        </div>
+        
+            <h3>Select a Product</h3>
+      
             <div class = "centering_everything">
             <br/>
             
@@ -76,10 +76,10 @@
                 Total
                 <input type="text" id="total" name="total" value="0.00" readonly/>
               </label>
-              </div>
+              
               <br/>
              <!--buttons for proceeding and calculating cost-->
-             <div class = "buttons">
+             
               <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
             </form>
@@ -87,7 +87,6 @@
             <br/>
             <button onClick="calcSub()">Calculate Cost</button>
             <a role="button" href="Ebus1.php">Clear Choice</a>
-            </div>
     
     </body>
 </html>
