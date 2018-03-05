@@ -19,6 +19,7 @@ button {
     display: inline-block;
     font-size: 16px;
 }
+/*styling for nav bar*/
 
 ul{
   margin: 0px;
@@ -29,7 +30,7 @@ ul{
 
 ul li{
     float: left;
-    width: 320px;
+    width: 340px;
     height: 40px;
     background-color: black;
     color: #fff;
@@ -56,6 +57,8 @@ ul li ul li{
 
 ul li:hover ul li{
     display: block;
+    
+/*styling for pictures*/
 }
 .amazon img{
     position: fixed;
@@ -89,6 +92,7 @@ ul li:hover ul li{
     left: 10%;
 }
 
+/*styling for homepage paragraphs*/
 .paragraph1{
     position: absolute;
     width: 40%;
@@ -120,6 +124,7 @@ ul li:hover ul li{
     top: 90%;
 }
 
+/*styling for homepage screen */
 .homepage1 img {
     position: absolute;
     width: 300px;
@@ -159,4 +164,39 @@ ul li:hover ul li{
     top: 0%;
     right: 50%;
 }
+/*styling for paragraphs */
+.advantages1{
+    position: absolute;
+    width: 40%;
+    margin-left: 30%;
+    top: 25%;
+    
+}
 
+.advantages2{
+    position: absolute;
+    width: 40%;
+    margin-left: 30%;
+    top: 95%;
+    
+}
+
+.advantages3{
+    position: absolute;
+    width: 40%;
+    margin-left: 30%;
+    top: 150%;
+}
+
+.advantages4{
+    position: absolute;
+    width: 40%;
+    margin-left: 30%;
+    top: 210%;
+}
+
+.heading{
+    position: absolute;
+    top:15%;
+    margin-left:43%;
+}

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="Ebus.css" type="text/css" />
         <title>Select Product</title>
-        
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
@@ -10,9 +10,10 @@
     </head>
     
     <body>
-        
+        <div class ="tital">
             <h4>Select a Product</h4>
-            
+        </div>
+            <div class = "centering_everything">
             <br/>
             
             <form method="POST" action="Ebus2.php">
@@ -75,9 +76,10 @@
                 Total
                 <input type="text" id="total" name="total" value="0.00" readonly/>
               </label>
-    
+              </div>
               <br/>
              <!--buttons for proceeding and calculating cost-->
+             <div class = "buttons">
               <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
             </form>
@@ -85,6 +87,7 @@
             <br/>
             <button onClick="calcSub()">Calculate Cost</button>
             <a role="button" href="Ebus1.php">Clear Choice</a>
+            </div>
     
     </body>
 </html>
