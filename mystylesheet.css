@@ -39,10 +39,14 @@ ul li:hover ul li{
 .flex{
      display: flex;
      flex-wrap: nowrap;
-     background: url("https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg") no-repeat;
+     background: url("Images/HomeScreen.jpeg") no-repeat;
      background-size: cover;
      background-repeat: repeat-x
 }
 
-
+.italics{
+    position: absolute;
+    top:30%;
+    margin-left:14%;
+}
    
