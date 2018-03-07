@@ -11,15 +11,15 @@
     
     <body>
         
-            <h3>Select a Product</h3>
+            <h3 class="productheading">Select a Product</h3>
       
-            <div class = "centering_everything">
             <br/>
             
             <form method="POST" action="Ebus2.php">
               <!-- making radio buttons and prices-->
+              <div class = "centering">
               <label for="salesforce">
-                <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
+                <input  type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                 SalesForce @ $100
               </label>
               
@@ -76,17 +76,20 @@
                 Total
                 <input type="text" id="total" name="total" value="0.00" readonly/>
               </label>
-              
+            </div>
               <br/>
              <!--buttons for proceeding and calculating cost-->
+              
+              <button class="addtocart" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
              
-              <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
-            
             </form>
             
             <br/>
-            <button onClick="calcSub()">Calculate Cost</button>
-            <a role="button" href="Ebus1.php">Clear Choice</a>
-    
+            
+            <button class = "calculatecost" onClick="calcSub()">Calculate Cost</button>
+            
+            
+            <a role="button" href="Ebus1.php" class = "clearchoice">Clear Choice</a>
+            
     </body>
 </html>

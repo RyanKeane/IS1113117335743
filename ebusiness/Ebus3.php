@@ -8,9 +8,10 @@ session_start();
         <title>RECEIPT</title>
     </head>
     <body>
-        
+        <div class ="recptheading">
         <h4>RECEIPT OF PURCHASE</h4>
-        
+        </div>
+        <div class = "receptcentering">
         <?php
         // setting all the session variables so that they will bw carried over from the previous page 
         ?>
@@ -35,14 +36,19 @@ session_start();
             <?php
             echo "Total: " . $_SESSION["total"] . ".";
             ?>
+        </div>
         </p>
-        
+             
+        <div class = "thankyou">
         <p>
             <b>
                 Thank You For Your Purchase.
             </b>
         </p>
+        </div>
         
-        
+        <div class = "homebutton">
+         <a href="../Vendor/VendorHome.css">Home</a>
+        </div>
     </body>
 </html>

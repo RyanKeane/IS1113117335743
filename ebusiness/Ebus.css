@@ -1,13 +1,95 @@
 /*styling all of the ebusiness sections*/
-.tital{
-    text-align: center;
+
+/*styling eEbus1*/
+.productheading{
+    position: absolute;
+    left:47%;
+    transform: translate(-50%, -50%);
+    top:5%;
 }
 
-.centering_everything{
-    text-allign:center;
+.centering{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%, -50%);
+    top: 50%
 }
 
-.buttons{
-    text-align: center;
+.addtocart{
+    position: absolute;
+    left:48%;
+    top:69%;
+}
+
+.clearchoice{
+    position: absolute;
+    left:53%;
+    top:65%; 
+}
+
+.calculatecost{
+    position: absolute;
+    left:45%;
+    top:65%;
+}
+
+/*styling Ebus2*/
+
+.paymentheading{
+    position: absolute;
+    left:47%;
+    transform: translate(-50%, -50%);
+    top:5%;
+}
+
+.detailscentering{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%, -50%);
+    top: 50%
+}
+
+.btnproceed{
+    position: absolute;
+    left:45%;
+    top:65%; 
+}
+
+.btnvaladate{
+    position: absolute;
+    left:45%;
+    top:70%;
+}
+
+/*styling for Ebus3*/
+
+.recptheading{
+    position: absolute;
+    left:47%;
+    transform: translate(-50%, -50%);
+    top:5%;
+}
+
+.receptcentering{
+    position: absolute;
+    left:45%;
+    transform: translate(-50%, -50%);
+    top: 50%; 
+}
+
+.thankyou{
+    position: absolute;
+    left:45%;
+    transform: translate(-50%, -50%);
+    top: 70%;
+}
+
+
+.homebutton{
+    position: absolute;
+    left:45%;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    
 }
 

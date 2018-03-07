@@ -13,13 +13,13 @@ session_start();
         <script type="text/javascript" src="ebus2_validator.js"></script>
     </head>
     <body>
-        <div class ="tital">
+        <div class ="paymentheading">
         <h4>Please enter your payment details</h4>
         </div>
 
             <form action="Ebus3.php" method="POST">
                 
-       
+       <div class = "detailscentering">
                     <label for="user_name" class="lbl_name">Name:
                     <input type="name" id="user_name" name="user_name" placeholder="Name">
                     </label>
@@ -36,8 +36,8 @@ session_start();
                     <input type="email" id="user_email" name="user_email" Placeholder="Email@example.com">
                     </label>
                     
-                    
-                    <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
+       </div>          
+                    <button class = "btnproceed" type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
               
             </form>
             
@@ -45,7 +45,7 @@ session_start();
             
             
             <br/>
-            <button onClick="validateName()">Validate</button>
+            <button class = "btnvaladate" onClick="validateName()">Validate</button>
             <?php
             // Set session variables
             $_SESSION["total"] = $_POST["total"];
