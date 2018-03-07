@@ -64,7 +64,28 @@
 }
 
 .mainheading{
-    position: absolute 20%
+    position: absolute;
+    top:10%;
+    left:40%
+}
+
+.secondaryheading1{
+    position: absolute;
+    top:20%;
+    left:40%;
+}
+
+.secondaryheading2{
+    position: absolute;
+    top:20%;
+    left:40%;
+}
+
+.cloud_paragraphs{
+     position: absolute;
+    width: 40%;
+    margin-left: 30%;
+    top: 30%;
 }
 
 a:link, a:visited {
