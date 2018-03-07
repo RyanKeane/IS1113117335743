@@ -8,9 +8,15 @@ session_start();
         <title>RECEIPT</title>
     </head>
     <body>
+        
+        <div class="done">
+             <img src="../Images/done.png">
+        </div>
+        
         <div class ="recptheading">
         <h4>RECEIPT OF PURCHASE</h4>
         </div>
+        
         <div class = "receptcentering">
         <?php
         // setting all the session variables so that they will bw carried over from the previous page 
@@ -47,8 +53,8 @@ session_start();
         </p>
         </div>
         
-        <div class = "homebutton">
-         <a href="../Vendor/VendorHome.css">Home</a>
-        </div>
     </body>
+
+         <a class = "homebutton" href="../Vendor/VendorHome.html">Home</a>
+    
 </html>

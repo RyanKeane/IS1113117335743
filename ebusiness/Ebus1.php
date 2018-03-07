@@ -10,6 +10,21 @@
     </head>
     
     <body>
+        <div class="amazon">
+             <img src="../Images/Amazon.png">
+        </div>
+        
+        <div class="cloud9">
+            <img src="../Images/cloud9.png">
+        </div>
+        
+         <div class="gmail">
+            <img src="../Images/gmail.png">
+        </div>
+        
+         <div class="salesforce">
+            <img src="../Images/salesforce.png">
+        </div>
         
             <h3 class="productheading">Select a Product</h3>
       

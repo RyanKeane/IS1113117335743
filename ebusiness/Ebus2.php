@@ -13,6 +13,11 @@ session_start();
         <script type="text/javascript" src="ebus2_validator.js"></script>
     </head>
     <body>
+        
+        <div class="lock">
+             <img src="../Images/lock.png">
+        </div>
+        
         <div class ="paymentheading">
         <h4>Please enter your payment details</h4>
         </div>
@@ -25,15 +30,15 @@ session_start();
                     </label>
                     
                     <br>
-
-                    <label for="user_pin">PIN:
-                    <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
-                    </label>
-                    
-                    <br>
                     
                     <label for="user_email" class="lbl_email"> Email address:
                     <input type="email" id="user_email" name="user_email" Placeholder="Email@example.com">
+                    </label>
+
+                    <br>
+                    
+                    <label for="user_pin">PIN:
+                    <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
                     </label>
                     
        </div>          
